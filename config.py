@@ -55,10 +55,10 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
-DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
+DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'False'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Jangan mengirim pesan langsung ke bot ini!. Silahkan kirim pesan ke @asyareddroombot !"
+USER_REPLY_TEXT = "❌Jangan mengirim pesan langsung ke bot ini!. Silahkan kirim pesan ke @asyaredrroombot !"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1983980399)
